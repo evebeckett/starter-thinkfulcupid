@@ -42,6 +42,7 @@ main img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap:wrap;
 }
 
 .form {
@@ -49,10 +50,12 @@ main img {
   flex-direction:row;
   justify-content:space-between;
 }
+
 .group {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .entry-form {
@@ -67,6 +70,10 @@ main img {
 
 .item-double {
   flex: 2;
+}
+
+.logo {
+  font-size: 32px;
 }
 
 /* -------  Navigation ------- */
@@ -111,7 +118,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 149px;
 }
 
 form button {
