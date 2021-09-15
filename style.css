@@ -42,7 +42,7 @@ main img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap:wrap;
+  
 }
 
 .form {
@@ -65,16 +65,14 @@ main img {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 4px;
+  font-size: 0.5em;
 }
 
 .item-double {
   flex: 2;
 }
 
-.logo {
-  font-size: 32px;
-}
 
 /* -------  Navigation ------- */
 
@@ -86,7 +84,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #ecdbc9;
 }
 
@@ -170,6 +168,7 @@ footer p {
   .item {
     flex: 1;
     margin: 10px;
+
   }
   
   .item-double {
